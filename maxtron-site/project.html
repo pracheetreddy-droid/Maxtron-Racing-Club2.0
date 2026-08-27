@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MAXTRON Project Dashboard | Specifications & Development</title>
+  <meta name="description" content="Detailed technical specifications, regulations compliance, and development roadmap for MAXTRON Racing Club's Formula Moto Student prototypes.">
+  <link rel="icon" href="assets/images/logo.png" type="image/png">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-color: var(--bg-darker);">
+
+  <header class="site-header scrolled">
+    <div class="nav-wrap container">
+      <a href="index.html" class="brand">
+        <img src="assets/images/logo.png" alt="MAXTRON Racing Club Logo" class="brand-mark-img">
+        <span class="brand-text">
+          <strong>MAXTRON</strong>
+          <em>PROJECT DASHBOARD</em>
+        </span>
+      </a>
+      <nav class="main-nav" id="mainNav">
+        <ul id="projectNavLinks">
+          <li><a href="index.html">← Back to Home</a></li>
+        </ul>
+      </nav>
+      <a href="index.html#contact" class="btn btn-outline nav-cta">Get Deck</a>
+    </div>
+  </header>
+
+  <header class="project-header">
+    <div class="container">
+      <p class="eyebrow">FORMULA MOTO STUDENT</p>
+      <h1 class="project-title text-gradient">The Race Machines</h1>
+      <p class="project-subtitle">Explore the engineering blueprint, technical compliance, competition roadmap, and financial metrics of our racing program.</p>
+      <div class="dashboard-nav" id="dbNav">
+        <button class="db-nav-link active" data-section="project">Our Project</button>
+        <button class="db-nav-link" data-section="roadmap">Roadmap</button>
+        <button class="db-nav-link" data-section="specs">Tech Specs</button>
+        <button class="db-nav-link" data-section="regulations">Regulations</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="container" style="padding-bottom: 100px;">
+    <section id="project" class="db-section active">
+      <div class="project-showcase-grid">
+        <div>
+          <p class="eyebrow">DEVELOPMENT VISION</p>
+          <h2 class="section-title text-gradient-blue" id="projectTitle">Two Identical. One Mission.</h2>
+          <p class="section-desc" id="projectDesc" style="text-align: left; margin-bottom: 24px;">
+            We are designing and building two identical Formula Moto Student prototype motorcycles as per FMAE MotoStudent (India) regulations. Developing two identical machines lets us run parallel testing, compare performance data, and improve reliability — while reducing overall development time.
+          </p>
+          <div class="project-feature-list" id="projectFeatures"></div>
+        </div>
+        <div>
+          <div class="glass-panel" style="padding: 40px; border-color: var(--primary-glow);">
+            <h3 style="text-transform: uppercase; margin-bottom: 20px; font-size: 1.55rem;">Engineered for track superiority</h3>
+            <p style="font-size: 1.15rem; color: var(--neutral-500); margin-bottom: 20px;">By using modular chromoly chassis structures and running digital multi-body dynamics validation, we ensure both the petrol and electric prototypes operate under identical vehicle geometry.</p>
+            <ul style="display: flex; flex-direction: column; gap: 12px; font-size: 1.08rem;">
+              <li style="display: flex; gap: 8px;"><strong>✓</strong> Dual Telemetry Comparison</li>
+              <li style="display: flex; gap: 8px;"><strong>✓</strong> Standardized Spare Packaging</li>
+              <li style="display: flex; gap: 8px;"><strong>✓</strong> Parallel Scrutineering Checks</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="proj-pillars-grid" id="projectPillars"></div>
+    </section>
+
+    <section id="roadmap" class="db-section">
+      <div class="section-header">
+        <p class="eyebrow">TIMELINE PROGRESSION</p>
+        <h2 class="section-title text-gradient">Development Roadmap</h2>
+        <p class="section-desc" id="roadmapLead">A structured roadmap — building a strong engineering foundation before progressing to international student motorcycle engineering competitions.</p>
+      </div>
+      <div class="roadmap-container" id="roadmapTimeline"></div>
+    </section>
+
+    <section id="specs" class="db-section">
+      <div class="section-header">
+        <p class="eyebrow">ENGINEERING SPEC SHEET</p>
+        <h2 class="section-title text-gradient-blue">Technical Specifications</h2>
+        <p class="section-desc" id="specsLead">Technical configurations designed for compliance, performance, and structural strength.</p>
+      </div>
+      <div class="specs-toolbar">
+        <div class="specs-search-wrap">
+          <span class="specs-search-icon">🔍</span>
+          <input type="text" class="specs-search-input" id="specsSearch" placeholder="Search spec parameter...">
+        </div>
+        <div class="specs-filters" id="specsFilters">
+          <button class="specs-filter-btn active" data-filter="All">All Specs</button>
+          <button class="specs-filter-btn" data-filter="General">General</button>
+          <button class="specs-filter-btn" data-filter="Powertrain">Powertrain</button>
+          <button class="specs-filter-btn" data-filter="Chassis & Aero">Chassis</button>
+          <button class="specs-filter-btn" data-filter="Suspension & Brakes">Suspension & Brakes</button>
+          <button class="specs-filter-btn" data-filter="Electronics">Electronics</button>
+        </div>
+      </div>
+      <div class="specs-table-panel glass-panel">
+        <table class="specs-table">
+          <thead>
+            <tr>
+              <th style="width: 25%;">Category</th>
+              <th style="width: 35%;">Parameter</th>
+              <th style="width: 40%;">Specification / Target</th>
+            </tr>
+          </thead>
+          <tbody id="specsTableBody"></tbody>
+        </table>
+      </div>
+      <p style="font-size: 0.96rem; color: var(--neutral-500); margin-top: 16px;" id="specsNote">* Technical parameters represent target blueprints. Final parameters are subject to regulation refinement.</p>
+    </section>
+
+    <section id="regulations" class="db-section">
+      <div class="section-header">
+        <p class="eyebrow">TECHNICAL COMPLIANCE</p>
+        <h2 class="section-title text-gradient">Rulebook Compliance</h2>
+        <p class="section-desc" id="regsLead">A condensed reference to the FMAE MotoStudent Technical Rulebook that governs our prototype build.</p>
+      </div>
+      <div class="regs-grid" id="regsGrid"></div>
+    </section>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container footer-bottom">
+      <p class="copyright">© 2026 MAXTRON RACING CLUB. All rights reserved.</p>
+      <p class="footer-extra">NMIT Student Motorsports Engineering</p>
+    </div>
+  </footer>
+
+  <script src="js/content.js"></script>
+  <script src="js/project.js"></script>
+  <script src="js/cursor-light.js"></script>
+</body>
+</html>
