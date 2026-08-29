@@ -75,13 +75,13 @@ window.SITE_CONTENT = {
 
   team: [
     { name: "Mahantayya K. Hiremath", role: "Faculty In-charge", image: "assets/images/team_faculty.png", initials: "MKH" },
-    { name: "Dhruva Naik", role: "Club Representative", image: "assets/images/team_rep.png", initials: "DN" },
+    { name: "Dhruva Naik", role: "Vice Captain", image: "assets/images/team_rep.png", initials: "DN" },
     { name: "N Sai Pracheet Reddy", role: "Media and Marketing", image: "assets/images/team_managing.png", initials: "NSP" },
     { name: "Sankeerth Issax", role: "Chassis & Frame Lead", image: "assets/images/team_chassis.png", initials: "CF" },
-    { name: "Team Member", role: "Powertrain Lead", image: "assets/images/team_powertrain.png", initials: "PT" },
-    { name: "Team Member", role: "Suspension & Braking Lead", image: "assets/images/team_susp.png", initials: "SB" },
+    { name: "Anish", role: "Captain", image: "assets/images/team_powertrain.png", initials: "C" },
+    { name: "Dhruva R Naik", role: "Suspension & Braking Lead", image: "assets/images/team_susp.png", initials: "SB" },
     { name: "Yatin A Sai", role: "Electronics Lead", image: "assets/images/team_elec.png", initials: "EL" },
-    { name: "Team Member", role: "Manufacturing Lead", image: "assets/images/team_mfg.png", initials: "MF" }
+    { name: "Varun", role: "Sponsorship", image: "assets/images/team_mfg.png", initials: "SS" }
   ],
 
   sponsors: [
