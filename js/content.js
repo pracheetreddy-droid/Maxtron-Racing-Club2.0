@@ -85,7 +85,7 @@ window.SITE_CONTENT = {
   ],
 
   sponsors: [
-    { name: "Shell", logoText: "SHELL", isMajor: true, desc: "Official Principal Sponsor" },
+    { name: "Shell", logoText: "SHELL", isMajor: true, desc: "Power Partner" },
     { name: "Your Logo Here", logoText: "PARTNER", isMajor: false, desc: "Sponsorship Slot Available" }
   ],
 
