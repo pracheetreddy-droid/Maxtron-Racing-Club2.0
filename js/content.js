@@ -78,7 +78,7 @@ window.SITE_CONTENT = {
     { name: "Anish Madhukar", role: "Captain", image: "assets/images/team_rep.png", initials: "AM" },
     { name: "Dhruva R Naik", role: "Vice Captain", image: "assets/images/team_managing.png", initials: "DN" },
     { name: "N Sai Pracheet Reddy", role: "Media&Marketing", image: "assets/images/team_chassis.png", initials: "NSP" },
-    { name: "Sankeerth Issax", role: "Chassis & Frame Lead", image: "assets/images/team_powertrain.png", initials: "SI" },
+    { name: "Sankeerth Isaac", role: "Chassis & Frame Lead", image: "assets/images/team_powertrain.png", initials: "SI" },
     { name: "Dhruva R Naik", role: "Suspension & Braking Lead", image: "assets/images/team_susp.png", initials: "DN" },
     { name: "Yatin A Sai", role: "Electronics Lead", image: "assets/images/team_elec.png", initials: "YS" },
     { name: "Varun", role: "Sponsorship", image: "assets/images/team_mfg.png", initials: "V" }
